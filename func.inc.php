@@ -1,7 +1,7 @@
 <?php
 /**
- * Script ini berisi fungsi fungsi yangdibutuhkan
-
+ * Script ini berisi fungsi fungsi yang dibutuhkan
+*/
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 require 'vendor/autoload.php';
