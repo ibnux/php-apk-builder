@@ -8,7 +8,7 @@ require 'vendor/autoload.php';
 
 function kirimPesan($pesan){
     // kirim  pesan ke Telegram Bot
-    // ikuti petunjuk disini https://ibnumaksum@bitbucket.org/ibnumaksum/banten-kuliner-android.git
+    // ikuti petunjuk disini https://telegram.ibnux.com/
     // https://core.telegram.org/bots/api
     file_get_contents("https://api.telegram.org/BOTTOKEN/sendMessage?chat_id=IDnya&text=".urlencode($pesan));
 }
